@@ -7,12 +7,12 @@ import java.util.TimerTask;
 public class TrainControllerImpl extends TimerTask implements TrainController {
 
 	private int step=0;
-	private int referenceSpeed=10;
+	private int referenceSpeed=0;
 	private int speedLimit=0;
 
 	@Override
 	public void run() {
-		followSpeed();
+		//followSpeed();
 	}
 
 	@Override
